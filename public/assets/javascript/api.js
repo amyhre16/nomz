@@ -61,7 +61,7 @@ $(document).ready(function() {
 			userdb =  database.ref('/users/' + userID);
 			fooddb = database.ref('/users/' + userID + '/food/');
 
-			if (usersSignedIn.indexof(userID) == -1) {
+			if (usersSignedIn.indexOf(userID) == -1) {
 				usersSignedIn.push(userID);
 				newUser();
 			}
