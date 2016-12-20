@@ -18,11 +18,11 @@ $(document).ready(function() {
 
 	// Variable to Initialize Firebase
 	var config = {
-		apiKey: "AIzaSyBEsEbAIqr60HleiXsvIcx-lko9l4Bnp6U",
-		authDomain: "nomz-5b99c.firebaseapp.com",
-		databaseURL: "https://nomz-5b99c.firebaseio.com",
-		storageBucket: "nomz-5b99c.appspot.com",
-		messagingSenderId: "655959060095"
+		apiKey: "AIzaSyCrG7TyoglnlsIJCv-eHOpSD-txMXo08iE",
+	    authDomain: "nomzcopy.firebaseapp.com",
+	    databaseURL: "https://nomzcopy.firebaseio.com",
+	    storageBucket: "nomzcopy.appspot.com",
+	    messagingSenderId: "350433827528"
 	};
 
 	// This initializes Firebase
