@@ -61,10 +61,11 @@ $(document).ready(function() {
 			userdb =  database.ref('/users/' + userID);
 			fooddb = database.ref('/users/' + userID + '/food/');
 
-			if (usersSignedIn.indexOf(userID) == -1) {
+			newUser();
+			/*if (usersSignedIn.indexOf(userID) == -1) {
 				usersSignedIn.push(userID);
 				newUser();
-			}
+			}*/
 
 			/*// event listener that waits for an item to be added to the current user's food database
 	        database.ref('/users/' + userID + '/food/').on('child_added', function(snapshot) {
